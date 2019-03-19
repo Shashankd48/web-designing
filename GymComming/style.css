@@ -1,0 +1,41 @@
+body{
+    background: url(gymOp.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+#main{
+    background: #186eaf;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 20px;
+    opacity: 0.8;    
+}
+h1{
+    color: white;
+    font-size: 4em;
+}
+#text{
+    color: white;
+    font-size: 1.8em;
+}
+button{
+    margin-top: 18px;
+    background: #ff7a7a;
+    color: white;
+    padding: 15px;
+    font-size: 1.5em;
+    border-radius: 15px;
+}
+img{
+    width: 50px;
+}
+header{
+    max-height: 100%;
+    width: 200px;
+    height: 50px;
+    max-width: 100%;
+    color: black;
+    font-size: 1.8em;
+}
