@@ -1,0 +1,104 @@
+html{
+    height: 100%;
+}
+body{
+    background: url(https://images.unsplash.com/photo-1519337718347-749509f114a8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Catamaran', sans-serif;
+}
+.navbar-light{
+    font-size: 1.15em;
+}
+.navbar-light .navbar-brand{
+    color: #28a745;
+    font-size: 1.3em;
+}
+/* .navbar-nav .nav-item .nav-link{
+    color: white;
+} */
+.center{
+    text-align: center;
+    margin-top: 140px;
+}
+.container  h1{
+    font-size: 2.5em;
+    color: white;
+}
+.container p{
+    color: white;
+    font-size: 1.2em;
+}
+.container h2{
+    color: white;
+}
+#login{
+    min-width: 250px;
+    background-color: rgba(255,255,255,0.6);
+    padding: 14px 17px 8px;
+    overflow: hidden;
+}
+#loginvia{
+    margin-left: 15px;
+    color: black;
+    font-size: 1em;
+}
+.login .social-buttons{
+    margin: 14px 0;
+}
+.btn-fb{
+    color: white;
+    background-color: #3b5998;
+}
+.btn-fb:hover{
+    color: white;
+    background-color: #5070b4;
+}
+.btn-tw{
+    margin-left: 13px;
+    color: white;
+    background-color: #55acee;
+}
+.btn-tw:hover{
+    color: white;
+    background-color: #429ee4;
+}
+@media(min-width: 768px){
+    h1{
+        background-color: #5dd39e;  
+    }
+    /* h2{
+        background-color: #5dd39e;
+    } */
+}
+@media(max-width: 768px){
+    h1{
+        color: white;
+        background-color: #5dd39e;
+    }
+    p{
+        background-color: #5dd39e;
+    }
+}
+.bt{
+    background-color: #34df92;
+    font-size: 1em;
+}
+.bt:hover{
+    background-color: #3fcc66;
+}
+.margin-right{
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
