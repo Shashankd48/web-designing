@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100%;    
+    background: radial-gradient(white,gray)
+}
+.wrapper{
+    width: 350px;
+    height: 550px;
+    margin: 50px auto;
+    border: 8px solid black;
+    border-radius: 15px;
+    background: white;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    background: linear-gradient(black,white);
+    border-radius: 10px 10px 0 0;
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: 'Felix Titling';
+    color: wheat;
+}
+span{
+    border-bottom: dashed 2px black;
+    display: block;
+    height: 90%;
+    width: 100%;
+}
+.wraplist{
+    height: 85%;
+    width: 100%;
+    border-bottom: 0 0 10px 10px;
+}
+input[type="checkbox"]{
+    position: relative;
+    top:14px;
+    right: 14px;
+    float: right;
+}
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.list{
+    list-style: none;
+    /* opacity: 0.8; */
+}
+.list li{
+    width: 100%;
+    float: left;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+}
+label{
+    padding: 10px;
+    float: left;
+    width: 90%;
+}
+.gray{
+    /* background: rgba(50, 50, 50, .1); */
+    background: linear-gradient(black,white);
+    color: wheat;
+}
