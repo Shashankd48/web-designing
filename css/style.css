@@ -1,0 +1,16 @@
+.col-12 img{
+    width: 100%;
+    margin: 0px auto;
+}
+.twentytwenty-container{
+    height: 400px;
+    width: 750px;
+    margin: 0 auto;
+}
+.jmb{
+    padding-top: 5px;
+}
+h1{
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
